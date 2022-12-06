@@ -4,6 +4,15 @@
 
 **RecyclerView** is used to render views dynamically using an adapter at runtime. In this example, the user will only see the first few images and the rest is loaded only when the user scrolls down.
 
+> ### 5 STEPS OF IMPLEMENTING a RecyclerView:
+> 1. Define a model class to use as the data source
+> 2. Add a RecyclerView to your activity to display the items
+> 3. Create a custom row layout XML file to visualize the item
+> 4. Create a RecyclerView.Adapter and ViewHolder to render the item
+> 5. Bind the adapter to the data source to populate the RecyclerView
+
+*Source: [Codepath - Using the RecyclerView](https://guides.codepath.com/android/using-the-recyclerview)*
+
 ## Video Walkthrough
 
 Here's a walkthrough of implemented user stories:
